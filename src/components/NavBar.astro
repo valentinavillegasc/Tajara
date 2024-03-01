@@ -1,4 +1,28 @@
-<nav class="flex flex-row w-auto">
-	<a href="/">Inicio</a>
-	<a href="/servicios">Nuestros servicios</a>
+<!-- <nav class="h-1280 flex flex-row text-2xl text-primaryDark gap-20 items-center justify-center p-5">
+	<img src="/Tajara.png" alt="logo" class="w-60 ml-24 m-1">
+	<a href="/">INICIO</a>
+	<a href="/servicios">SERVICIOS</a>
+	<a href="/nosotros">NOSOTROS</a>
+	<div class="bg-primaryDark text-secondaryLight p-1 rounded-lg">
+		<a href="/contacto">CONTACTO</a>
+	</div>
+</nav> -->
+
+
+
+<nav class="h-1280 flex flex-col lg:flex-row text-base lg:text-2xl text-primaryDark  items-center justify-center p-5">
+    <!-- Logo arriba en dispositivos móviles -->
+    <div class="lg:hidden">
+        <img src="/Tajara.png" alt="logo" class="w-28 m-1 mb-5">
+    </div>
+
+    <div class="lg:flex flex-row lg:items-center lg:gap-20"> <!-- Para laptop, columna y centrado -->
+        <img src="/Tajara.png" alt="logo" class="w-60 ml-24 m-1 hidden lg:inline-block"> <!-- Oculta el logo en mobile -->
+        <a href="/">INICIO</a>
+        <a href="/servicios">SERVICIOS</a>
+        <a href="/nosotros">NOSOTROS</a>
+        <div class="bg-primaryDark text-secondaryLight p-1 rounded-lg inline-block">
+            <a href="/contacto">CONTACTO</a>
+        </div>
+    </div>
 </nav>
