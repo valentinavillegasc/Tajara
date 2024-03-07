@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Portada from '../components/Portada.astro'
+import Presentacion from '../components/Presentación.astro'
 ---
 
 <Layout title="Tajara">
@@ -10,18 +11,18 @@ import Portada from '../components/Portada.astro'
 	<div class="h-screen flex flex-col relative">
 		
 		<div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
-		<!-- Componente portada -->
-		<Portada title="Tajara" texto="Un lugar mágico donde se funde el arte y la naturaleza." imagen="/portadainicio.webp"/>
+		
+			<Portada title="Tajara" texto="Un lugar mágico donde se funde el arte y la naturaleza." imagen="/portadainicio.webp"/>
+		
 		<div class="flex-1 p-10 m-auto relative z-0"></div>
 	</section>
 	<section >
 
 	
 		<div class="h-screen flex flex-col relative">
-			
 			<div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
 			<!-- mini presentación -->
-			
+			<Presentacion/>
 			<div class="flex-1 p-10 m-auto relative z-0"></div>
 		</section>
 
