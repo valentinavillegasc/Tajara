@@ -1,14 +1,22 @@
+---
+interface Props{
+    title:string,
+    texto:string,imagen:string
+}
+const {title,texto,imagen} = Astro.props
+---
+
 <div class="absolute inset-0 flex items-center justify-end lg:mr-28">
     <div class="max-w-max p-10 mt-8 rounded-2xl flex flex-row relative justify-center">
         <div class="custom-container flex flex-col justify-center">
-            <h1 class="text-6xl text-primaryDark mb-5">Tajara</h1>
-            <h2 class="text-xl text-secondaryDark mb-5">Un lugar mágico donde se funde el arte y la naturaleza.</h2>
+            <h1 class="text-6xl text-primaryDark mb-5">{title}</h1>
+            <h2 class="text-xl text-secondaryDark mb-5">{texto}</h2>
             <div class="bg-primaryDark text-secondaryLight p-1 rounded-lg ml-auto mt-2">
                 <a href="/contacto">Conoce más</a>
             </div>
         </div>
         <div>
-            <img src="/portadainicio.webp" alt="" class="imgPortada">
+            <img src={imagen} alt="" class="imgPortada">
         </div>
     </div>
 </div>
