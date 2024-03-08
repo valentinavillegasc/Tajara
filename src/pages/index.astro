@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Portada from '../components/Portada.astro'
 import Presentacion from '../components/Presentación.astro'
+import Memorias from '../components/Memorias.astro'
 ---
 
 <Layout title="Tajara">
@@ -15,8 +16,9 @@ import Presentacion from '../components/Presentación.astro'
 			<Portada title="Tajara" texto="Un lugar mágico donde se funde el arte y la naturaleza." imagen="/portadainicio.webp"/>
 		
 		<div class="flex-1 p-10 m-auto relative z-0"></div>
+	</div>
 	</section>
-	<section >
+	<section class="memorias" >
 
 	
 		<div class="h-screen flex flex-col relative">
@@ -24,15 +26,17 @@ import Presentacion from '../components/Presentación.astro'
 			<!-- mini presentación -->
 			<Presentacion/>
 			<div class="flex-1 p-10 m-auto relative z-0"></div>
+		</div>
 		</section>
-
-
+		
+		<section >
 		<div class="h-screen flex flex-col relative">
 			
 			<div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
 			<!-- Opiniones -->
-			
+			<Memorias/>
 			<div class="flex-1 p-10 m-auto relative z-0"></div>
+		</div>
 		</section>
 </Layout>
 
