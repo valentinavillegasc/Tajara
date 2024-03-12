@@ -17,44 +17,51 @@ const { title, imagen } = Astro.props
 
 
 <style>
-.serviceContainer {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 15px;
-    border-radius: 15px;
-    text-align: center;
-    color: #EDDBBE;
-    font-size: x-large;
-    font-weight: 500;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: inherit;
-}
-
-.text {
-    position: relative; 
-    z-index: 1; 
-}
-
-.bg-image {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    z-index: 0; 
-    border-radius: 15px;
-}
-
-</style>
+    .serviceContainer {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 15px;
+        text-align: center;
+        color: #EDDBBE;
+        font-size: x-large;
+        font-weight: 500;
+        transition: transform 0.3s ease; 
+        cursor: pointer;
+    }
+    
+    .serviceContainer:hover {
+        transform: scale(1.1);
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: inherit;
+    }
+    
+    .text {
+        position: relative; 
+        z-index: 1; 
+    }
+    
+    .bg-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        z-index: 0; 
+        border-radius: 15px;
+    }
+    
+    </style>
+    
