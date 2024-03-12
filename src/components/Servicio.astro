@@ -1,0 +1,60 @@
+---
+interface Props {
+    title: string,
+    imagen: string,
+}
+const { title, imagen } = Astro.props 
+---
+
+
+<div class="serviceContainer">
+    <img src={imagen} alt="" class="bg-image">
+    <div class="overlay"></div>
+    <h2 class="text">{ title }</h2>
+</div>
+
+
+
+
+<style>
+.serviceContainer {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    color: #EDDBBE;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: inherit;
+}
+
+.text {
+    position: relative; 
+    z-index: 1; 
+}
+
+.bg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 0; 
+    border-radius: 15px;
+}
+
+</style>
