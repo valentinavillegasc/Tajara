@@ -1,9 +1,37 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import Portada from "../components/Portada.astro"
+import Servicio from '../components/Servicio.astro'
 ---
 
 <Layout title="Tajara - Servicios">
-    <h1>Servicios</h1>
-    <h3>Servicio 1</h3>
-    <h3>servicio 2</h3>
+    <section>
+
+	
+        <div class="h-screen flex flex-col relative">
+            
+            <div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
+            
+                <Portada title="Servicios" texto="Descubre una variedad de experiencias en Tajara, donde cada servicio es una oportunidad para conectarte con la belleza de la naturaleza y tu creatividad. Estamos aquí para inspirarte en cada paso del camino hacia una vida más consciente y sostenible." imagen="/portadainicio.webp" mostrarBoton={false}
+                />
+            
+            <div class="flex-1 p-10 m-auto relative z-0"></div>
+        </div>
+        </section>
+        <section>
+            <div class="bg-secondaryLight flex flex-row flex-wrap justify-center items-center p-16">
+                <Servicio title="Visita Guiada" imagen="/portadainicio.webp"/>
+                <Servicio title="Talleres libres de escultura" imagen="/portadainicio.webp"/>
+                <Servicio title="Talleres ENBO (Entregados al Bonsái) para principiante y avanzados de Bonsai" imagen="/portadainicio.webp"/>
+                <Servicio title="Asesorias para el rescate y recuperacion de árboles" imagen="/portadainicio.webp"/>
+                <Servicio title="Actividades Escolares" imagen="/portadainicio.webp"/>
+                <Servicio title="Taller THuo2 (Tu Huerta Orgánica)" imagen="/portadainicio.webp"/>
+                <Servicio title="Mantenimiento y guarderia para Bonsái" imagen="/portadainicio.webp"/>
+            </div>
+        </section>
+        <div class="flex justify-center m-20">  
+            <div class="bg-primaryDark text-secondaryLight p-2 rounded-lg ">
+                <a href="/contacto" class="text-2xl">Apóyanos</a>
+            </div>
+        </div>
 </Layout>
