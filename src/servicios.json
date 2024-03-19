@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Visita Guiada",
+    "imagen": "/servicio1.webp"
+  },
+  {
+    "id": 2,
+    "title": "Talleres libres de escultura",
+    "imagen": "/servicio2.webp"
+  },
+  {
+    "id": 3,
+    "title": "Talleres ENBO (Entregados al Bonsái) para principiante y avanzados de Bonsai",
+    "imagen": "/servicio7.webp"
+  },
+  {
+    "id": 4,
+    "title": "Asesorias para el rescate y recuperacion de árboles",
+    "imagen": "/servicio4.webp"
+  },
+  {
+    "id": 5,
+    "title": "Actividades Escolares",
+    "imagen": "/portadainicio.webp"
+  },
+  {
+    "id": 6,
+    "title": "Taller THuo2 (Tu Huerta Orgánica)",
+    "imagen": "/servicio6.webp"
+  },
+  {
+    "id": 7,
+    "title": "Mantenimiento y guarderia para Bonsái",
+    "imagen": "/portadainicio.webp"
+  }
+]
