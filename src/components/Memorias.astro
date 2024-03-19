@@ -2,117 +2,14 @@
 interface Props {
     name: string,
     texto: string,
-    imagen: string,
+  
 
 }
-const { name, texto, imagen,   } = Astro.props 
+const { name, texto   } = Astro.props 
 ---
 
-<div class="principal">
-    <div class="slide-container">
-        <div class="slide-content">
-            <div class="card-wrapper">
-                <div class="card">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-
-                        <div class="card-image">
-                            <img src={imagen} alt="" class="card-img">
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <h2 class="name">{name}</h2>
-                        <p class="description">{texto}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<style>
-    .principal {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-    }
-    .slide-container{
-        max-width: 1120px;
-        width: 100%;
-    }
-    .slide-content{
-        margin: 0 40px;
-    }
-.card{
-    width: 320px;
-    border-radius: 25px;
-    background-color: white;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-    
-}
-.image-content, .card-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
-}
-.image-content{
-position: relative;
-    row-gap: 5px;
-    padding: 25px 0;
-}
-.overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #BC5527;
-    border-radius: 25px 25px 0 25px;
-
-}
-
-.overlay::before, .overlay::after{
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-
-    height: 40px;
-    width: 40px;
-    background-color: #BC5527 ;
-}
-.overlay::after{
-    border-radius: 0 25px 0 0;
-    background-color: white;
-}
-    .card-image {
-        position: relative;
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        background: white;
-        padding: 3px;
-        
-    }
-
-    .card-image .card-img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 50%;
-        border: 4px solid #BC5527;
-    }
-    .name{
-        font-size: 18px;
-        font-weight: 500;
-        color: #414142
-    }
-    .description{
-        font-size: 14px;
-        color:#414142;
-        text-align: center;
-    }
-</style>
+<div class="w-96 rounded-[20px] bg-white py-12 px-8 text-center">
+    <h3 class="text-gray-900 pb-2 text-xl font-bold sm:text-2xl">{name}y</h3>
+    <span class="bg-primaryDark mx-auto mb-6 inline-block h-1 w-[90px] rounded"></span>
+    <p class="text-gray-500 mb-10 text-base leading-relaxed">{texto}</p>
+  </div>
