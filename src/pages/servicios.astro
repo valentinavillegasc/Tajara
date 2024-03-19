@@ -2,31 +2,27 @@
 import Layout from "../layouts/Layout.astro"
 import Portada from "../components/Portada.astro"
 import Servicio from '../components/Servicio.astro'
+import listaServicios from '../servicios.json'
 ---
 
+            
+            
 <Layout title="Tajara - Servicios">
     <section>
-
-	
         <div class="h-screen flex flex-col relative">
             
             <div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
             
-                <Portada title="Servicios" texto="Descubre una variedad de experiencias en Tajara, donde cada servicio es una oportunidad para conectarte con la belleza de la naturaleza y tu creatividad. Estamos aquí para inspirarte en cada paso del camino hacia una vida más consciente y sostenible." imagen="/portadaServicios.jpg" mostrarBoton={false}
-                />
+                <Portada title="Servicios" texto="Descubre una variedad de experiencias en Tajara, donde cada servicio es una oportunidad para conectarte con la belleza de la naturaleza y tu creatividad. Estamos aquí para inspirarte en cada paso del camino hacia una vida más consciente y sostenible." imagen="/portadaServicios.jpg" />
             
             <div class="flex-1 p-10 m-auto relative z-0"></div>
         </div>
         </section>
         <section>
             <div class="bg-secondaryLight flex flex-row flex-wrap justify-center items-center p-16">
-                <Servicio title="Visita Guiada" imagen="/servicio1.webp"/>
-                <Servicio title="Talleres libres de escultura" imagen="/servicio2.webp"/>
-                <Servicio title="Talleres ENBO (Entregados al Bonsái) para principiante y avanzados de Bonsai" imagen="/servicio7.webp"/>
-                <Servicio title="Asesorias para el rescate y recuperacion de árboles" imagen="/servicio4.webp"/>
-                <Servicio title="Actividades Escolares" imagen="/portadainicio.webp"/>
-                <Servicio title="Taller THuo2 (Tu Huerta Orgánica)" imagen="/servicio6.webp"/>
-                <Servicio title="Mantenimiento y guarderia para Bonsái" imagen="/portadainicio.webp"/>
+                {listaServicios.map(servicio =>{
+                    return <Servicio id={servicio.id} title={servicio.title} imagen={servicio.imagen} />
+                })}
             </div>
         </section>
         <div class="flex justify-center m-20">  

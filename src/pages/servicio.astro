@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro'
+import listaServicios from '../servicios.json'
+
+export const props = {
+    idServicio: 0
+}
+
+const idServicio = props.idServicio;
+const servicio = listaServicios.find(servicio => servicio.id === idServicio);
+console.log(servicio);
+
+
+---
+
+<Layout title={`Tajara`}>
+    <section>
+        <div class="h-screen flex flex-col relative">
+            <div class="flex-1 bg-secondaryLight h-90vh relative z-10 sm:flex- sm:z-0">
+                {servicio && (
+                    <div>
+                        <h1>{servicio.title}</h1>
+                        <img src={servicio.imagen} alt={servicio.title} />
+                        {/* Mostrar más detalles del servicio aquí */}
+                    </div>
+                )}
+            </div>
+            <div class="flex-1 p-10 m-auto relative z-0"></div>
+        </div>
+    </section>
+</Layout>
+../servicios
