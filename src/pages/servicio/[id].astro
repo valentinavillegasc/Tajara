@@ -1,30 +1,34 @@
 ---
     import Layout from '../../layouts/Layout.astro'
     import servicios from '../../servicios.json'
+    import DetailServicio from '../../components/DetailServicio.astro'
 
     export function getStaticPaths() {
-	return servicios.map(({ id }) => {
-		return { params: { id } }
+	return servicios.map(({ id,title,subtitle, imagen,descripción,precios,link }) => {
+		return { params: { id }, props:{ title,subtitle,imagen,descripción,precios,link} }
 	})
 }
-const {id} = Astro.params
-const {title} = Astro.props
+
+const {title,subtitle,imagen,descripción,precios,link} = Astro.props
 
 
 ---
 
-<Layout title={`Tajara - ${title}`}>
+<Layout title=`Tajara - ${title}`>
     <section>
-        <div class="h-screen flex flex-col relative">
-            <div class="flex-1 bg-secondaryLight h-90vh relative z-10 sm:flex- sm:z-0">
-                
-                
-                        <!-- <h1>{title}</h1>
-                        <img src={imagen} alt={title} /> -->
-                  
-                
+    <div class="h-screen flex flex-col relative">
+        
+        <div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
+
+        <DetailServicio title={title} imagen={imagen} descripción={descripción} precios={precios} link={link} subtitle={subtitle}/>
+        
+        <div class="flex-1 p-10 m-auto relative z-0"></div>
+</section>
+
+        <div class="flex justify-center m-20">  
+            <div class="bg-primaryDark text-secondaryLight p-2 rounded-lg ">
+                <a href="/servicios" class="text-2xl">Más servicios</a>
             </div>
-            <div class="flex-1 p-10 m-auto relative z-0"></div>
         </div>
-    </section>
 </Layout>
+
