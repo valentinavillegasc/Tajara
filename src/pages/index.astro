@@ -4,12 +4,11 @@ import Portada from '../components/Portada.astro'
 import Presentacion from '../components/Presentación.astro'
 import Opiniones from '../components/Opiniones.astro'
 ---
-
 <Layout title="Tajara">
-<section>
+
 
 	
-	<div class="h-screen flex flex-col relative">
+	<div class="lg:h-screen flex flex-col relative sm:h-[700px]">
 		
 		<div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
 		
@@ -17,23 +16,21 @@ import Opiniones from '../components/Opiniones.astro'
 		
 		<div class="flex-1 p-10 m-auto relative z-0"></div>
 	</div>
-	</section>
-	<section class="memorias" >
+	
+	
 
 	
-		<div class="h-screen flex flex-col relative">
+	<div class="lg:h-screen flex flex-col relative sm:h-[1000px]">
 			<div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
-			<!-- mini presentación -->
 			<Presentacion/>
 			<div class="flex-1 p-10 m-auto relative z-0"></div>
 		</div>
-		</section>
+	
 		
-		<section >
-		<div class="h-screen flex flex-col relative">
+		
+			<div class="lg:h-screen flex flex-col relative sm:h-[700px]">
 			
 			<div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
-			<!-- Opiniones -->
 			<Opiniones/>
 
 			<div class="flex-1 p-10 m-auto relative z-0"></div>
@@ -44,6 +41,9 @@ import Opiniones from '../components/Opiniones.astro'
                 <a href="/contacto" class="text-2xl">Apóyanos</a>
             </div>
         </div>
-</Layout>
+</Layout> 
 
 
+ 
+
+ 

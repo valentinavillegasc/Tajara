@@ -13,22 +13,14 @@ const { title, texto, imagen } = Astro.props
         <div class="custom-container flex flex-col justify-center">
             <h1 class="text-6xl text-primaryDark m-5 mb-2">{title}</h1>
             <h2 class="text-xl text-secondaryDark m-5">{texto}</h2>
-            
-           
         </div>
         <div>
-            <img src={imagen} alt="foto bonsai" class="imgPortada">
+            <img src={imagen} alt="foto bonsai" class="lg:w-[720px] lg:h-[487px] rounded-xl sm:w-[550px] sm:h-[550px]">
         </div>
     </div>
 </div>
 
-
 <style>
-.imgPortada {
-    width: 720px;
-    height: 487px;
-    border-radius: 15px;
-}
 
 .custom-container {
     position: absolute;
@@ -42,22 +34,8 @@ const { title, texto, imagen } = Astro.props
     border-radius: 1rem;
     width: 565px;
     height: 305px;
-    
-   
 }
 
-@media (max-width: 639px) {
-    .imgPortada {
-        width: 207px;
-        height: 201px;
-        border-radius: 15px;
-    }
-
-    .custom-container {
-        padding: 0.5rem; /* Reduzco el padding para adaptarlo a dispositivos móviles */
-        width: 216px;
-        height: 118px;
-    }
-}
 </style>
+
 
