@@ -1,18 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro'
+import Apoyo from '../components/Apoyo.astro'
 ---
 
 <Layout title="Tajara - Apóyanos">
-    <section>
-
+    <div class="lg:h-screen flex flex-col relative sm:h-[700px]">
+		
+		<div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
+		
+			<Apoyo/>
+		
+		<div class="flex-1 p-10 m-auto relative z-0"></div>
+	</div>
 	
-        <div class="h-screen flex flex-col relative">
-            
-            <div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
-            
-            
-            <div class="flex-1 p-10 m-auto relative z-0"></div>
-        </div>
-        </section>
 
 </Layout>
