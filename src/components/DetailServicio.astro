@@ -14,11 +14,11 @@ interface Props {
 const { title,subtitle, descripción,imagen,precios,link } = Astro.props 
 ---
 
-<div class=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 bg-white max-w-max p-8 m-auto rounded-2xl flex flex-row shadow-2xl">
-    <div class="info">
+<!--  <div class=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 bg-white max-w-max p-8 m-auto rounded-2xl flex flex-row shadow-2xl">
+    <div class="lg:w-[1300px] flex flex-col">
         <h1 class="text-5xl text-primaryDark m-5 mb-2 text-left font-medium">{title}</h1>
         <h2 class="text-lg text-secondaryDark ml-5 mb-2 font-medium">{subtitle}</h2>
-           <div class="flex flex-row items-center">
+        <div class="flex flex-row items-center">
 
            
          <div >
@@ -28,20 +28,21 @@ const { title,subtitle, descripción,imagen,precios,link } = Astro.props
             { link && <a href={link} class="">Más información</a>}
 
         </div>    
-        <img src={imagen} alt={title} class="imagen"/>
-       </div>
+        <img src={imagen} alt={title} class="lg:w-[800px] lg:h-[500px] rounded-xl"/>
+    </div>
+</div>  
+ -->
+ <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 bg-white max-w-max p-4 m-auto rounded-2xl flex flex-row shadow-2xl lg:w-[1300px] sm:w-[900px]">
+    <div class=" flex flex-col">
+        <h1 class="lg:text-5xl sm:text-7xl text-primaryDark m-5 mb-2 text-left font-medium">{title}</h1>
+        <h2 class="lg:text-lg sm:text-2xl text-secondaryDark ml-5 mb-2 font-medium">{subtitle}</h2>
+        <div class="flex lg:flex-row sm:flex-col items-center">
+            <div>
+                {descripción.map(descrip => {return <p class="lg:text-lg sm:text-2xl text-secondaryDark m-5">{descrip}</p> })}
+                <p class="lg:text-lg sm:text-2xl  text-secondaryDark m-5">{precios}</p>
+                {link && <a class="lg:text-lg sm:text-2xl  text-secondaryDark m-5" href={link}>Más información</a>}
+            </div>    
+            <img src={imagen} alt={title} class=" lg:w-[800px] lg:h-[500px] sm:w-[700px] rounded-xl m-5"/>
+        </div>
+    </div>
 </div>
-</div> 
-<style>
-    .info{
-        width: 1300px;
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .imagen{
-        width: 800px;
-        height: 500px;
-        border-radius: 15px;
-    }
-</style>

@@ -15,15 +15,16 @@ const {title,subtitle,imagen,descripción,precios,link} = Astro.props
 ---
 
 <Layout title=`Tajara - ${title}`>
-    <section>
-    <div class="h-screen flex flex-col relative">
+    
+    <div class="lg:h-screen flex flex-col relative sm:h-screen">
         
         <div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
 
         <DetailServicio title={title} imagen={imagen} descripción={descripción} precios={precios} link={link} subtitle={subtitle}/>
         
         <div class="flex-1 p-10 m-auto relative z-0"></div>
-</section>
+    </div>
+
 
         <div class="flex justify-center m-20">  
             <div class="bg-primaryDark text-secondaryLight p-2 rounded-lg ">
