@@ -22,7 +22,7 @@ const { title,subtitle, descripción,imagen,precios,link } = Astro.props
             <div>
                 {descripción.map(descrip => {return <p class="lg:text-lg sm:text-2xl text-secondaryDark m-5">{descrip}</p> })}
                 <p class="lg:text-lg sm:text-2xl  text-secondaryDark m-5">{precios}</p>
-                {link && <a class="lg:text-lg sm:text-2xl  text-secondaryDark m-5" href={link}>Más información</a>}
+                {link && <a class="lg:text-lg sm:text-2xl  text-secondaryDark m-5 underline" href={link}>Más información</a>}
             </div>    
             <img src={imagen} alt={title} class=" lg:w-[800px] lg:h-[500px] sm:w-[700px] rounded-xl m-5"/>
         </div>
