@@ -6,7 +6,7 @@
     "imagen": "/servicio1.webp",
     "descripción": [
       " Durante 2 a 3 horas, sumérgete en la belleza de nuestro bosque convertido en una cautivadora colección de Bonsai y maravíllate con la diversidad de orquídeas y bromelias en un recorrido de contemplación de baja dificultad.",
-      "Explora nuestras huertas orgánicas y aprende sobre prácticas sostenibles mientras disfrutas de un reconfortante café o aromática. Te proporcionamos recomendaciones prácticas para una experiencia óptima, como llevar un abrigo y zapatos cómodos, así como la oportunidad de capturar recuerdos con fotografías (¡no olvides respetar los árboles en macetas!)."
+      "Explora nuestras huertas orgánicas y aprende sobre prácticas sostenibles mientras disfrutas de un reconfortante café o aromática. Te proporcionamos recomendaciones prácticas para una experiencia óptima, como llevar un abrigo y zapatos cómodos, así como la oportunidad de capturar recuerdos con fotografías (¡Evita tocar los árboles en macetas!)."
     ],
     "precios": "¡Reserva tu experiencia ahora por solo $30.000 por persona y prepárate para vivir momentos inolvidables en nuestro mágico parque! ",
     "link": "https://bit.ly/Reserva_Visita_Guiada_Tajara"
@@ -19,20 +19,21 @@
     "descripción": [
       "Nos entusiasma que estés interesado en sumergirte en el mundo de las técnicas y materiales artísticos a través de las clases impartidas por el renombrado maestro Ricardo Villegas. En nuestro taller, tendrás la oportunidad única de explorar y desarrollar tus proyectos artísticos de manera libre y creativa, con el apoyo personalizado del maestro.",
       "Los talleres grupales se llevan a cabo los martes a las 4:30 PM, brindándote un espacio enriquecedor para nutrir tus habilidades artísticas y expandir tu imaginación.",
-      " Será un verdadero placer darte la bienvenida a nuestro taller y acompañarte en tu viaje hacia la expresión artística.¡No dudes en unirte a nosotros y liberar tu potencial creativo!"
+      "Pregunta también por nuestras clases personalizadas",
+      "Será un verdadero placer darte la bienvenida a nuestro taller y acompañarte en tu viaje hacia la expresión artística. ¡No dudes en unirte a nosotros y liberar tu potencial creativo!"
     ],
-    "precios": "La inscripción tiene un costo de $50.000, y ofrecemos la flexibilidad de elegir un paquete de 4 clases por $180.000. Aceptamos pagos a través de Nequi o Daviplata (cel: 311 8125832), así como en efectivo."
+    "precios": "La inscripción al taller grupal tiene un costo de $50.000 por persona, y ofrecemos la flexibilidad de elegir un paquete de 4 clases por $180.000."
   },
   {
     "id": 3,
-    "title": "Talleres ENBO (Entregados al Bonsái) para principiante y avanzados de Bonsai",
+    "title": "Tallere ENBO (Entregados al Bonsái) para principiantes y avanzados",
     "subtitle": "¡Bienvenido(a) al emocionante viaje de ENBO, tu taller teórico-práctico dedicado al apasionante mundo de los Bonsái!",
     "imagen": "/servicio3.webp",
     "descripción": [
       "Estamos encantados de tenerte aquí, listo(a) para adquirir los conocimientos necesarios y convertirte en un(a) experto(a) en el arte del Bonsái.",
-      " Durante este exclusivo taller de 2 meses, te sumergirás en un aprendizaje continuo y práctico. Cada semana, recibirás emocionantes materiales de estudio en formato de video, donde explorarás a fondo los secretos y técnicas detrás de este arte milenario.Además, llevarás a cabo una clase virtual de práctica semanal, de una a dos horas de duración, donde pondremos en acción los conceptos aprendidos en los videos. Con un total de 8 unidades, te garantizamos un progreso fluido y resultados satisfactorios siguiendo el orden cronológico.",
+      " Durante este exclusivo taller de 2 meses, te sumergirás en un aprendizaje continuo y práctico. Cada semana, recibirás emocionantes materiales de estudio en formato de video, donde explorarás a fondo los secretos y técnicas detrás de este arte milenario. Además, llevarás a cabo una clase virtual de práctica semanal, de una a dos horas de duración, donde pondremos en acción los conceptos aprendidos en los videos. Con un total de 8 unidades, te garantizamos un progreso fluido y resultados satisfactorios siguiendo el orden cronológico.",
       "Para sacar el máximo provecho a este viaje, te ofrecemos algunas recomendaciones clave: Dedica tiempo a ver detenidamente el material semanal y ten tu libreta a mano para capturar cada detalle y consejo valioso. En la clase de práctica, no dudes en plantear todas tus inquietudes. Estamos aquí para responder y guiarte en cada paso. Tu disposición de aprendizaje será clave para alcanzar el éxito en el mundo de los Bonsái. No te preocupes por tener herramientas o materiales previos al inicio.",
-      "Estamos comprometidos a acompañarte en todo el proceso, brindándote orientación y apoyo en cada etapa de tu aprendizaje.¡Prepárate para vivir una experiencia única donde el conocimiento y el amor por los árboles se fusionan en ENBO!"
+      "Estamos comprometidos a acompañarte en todo el proceso, brindándote orientación y apoyo en cada etapa de tu aprendizaje. ¡Prepárate para vivir una experiencia única donde el conocimiento y el amor por los árboles se fusionan en ENBO!"
     ]
   },
   {
@@ -41,8 +42,8 @@
     "subtitle": "¡Descubre el poder de salvar y revitalizar la naturaleza con nuestro servicio especializado en el rescate de árboles! ",
     "imagen": "/servicio4.webp",
     "descripción": [
-      "En un mundo donde la deforestación y la degradación ambiental amenazan la salud de nuestro planeta, el rescate de árboles se vuelve más vital que nunca. Nuestro equipo de expertos en conservación forestal está dedicado a proteger y restaurar los árboles amenazados, brindándoles una segunda oportunidad para prosperar.",
-      "Desde la identificación de árboles en peligro hasta la implementación de estrategias de rescate efectivas, estamos comprometidos a preservar la belleza y la biodiversidad de nuestros bosques. Ya sea que se trate de árboles afectados por la tala indiscriminada, la urbanización o enfermedades, estamos aquí para ofrecer soluciones personalizadas y científicamente respaldadas.",
+      "En un mundo donde la deforestación y la degradación ambiental amenazan la salud de nuestro planeta, el rescate de árboles se vuelve más vital que nunca. Somos expertos en conservación forestal dedicados a proteger y restaurar los árboles amenazados, brindándoles una segunda oportunidad para prosperar.",
+      "Desde la identificación de árboles en peligro hasta la implementación de estrategias de rescate efectivas, estamos comprometidos a preservar la belleza y la biodiversidad de nuestros bosques. Ya sea que se trate de árboles afectados por la tala indiscriminada, la urbanización o enfermedades, estamos aquí para ofrecer soluciones personalizadas.",
       "Al elegir nuestro servicio de asesoría para el rescate de árboles, estás contribuyendo directamente a la conservación de nuestros preciados recursos naturales y al mantenimiento del equilibrio ecológico. Cada árbol salvado es un paso hacia un futuro más verde y sostenible para las generaciones venideras."
     ]
   },
@@ -52,10 +53,10 @@
     "subtitle": "¡Bienvenidos, colegios, a una experiencia educativa única y enriquecedora en el corazón de la naturaleza!",
     "imagen": "/servicio5.webp",
     "descripción": [
-      "En nuestro programa de actividades ambientales, ofrecemos a los estudiantes la oportunidad de participar en emocionantes jornadas de rescate y siembra de árboles, así como actividades prácticas en nuestra huerta pedagógica. Nuestro equipo de expertos en conservación ambiental guiará a los estudiantes a través de actividades prácticas de rescate de árboles, donde aprenderán sobre la importancia de preservar y proteger nuestros bosques.",
-      "Desde la identificación de especies en peligro hasta la siembra de nuevas plántulas, los estudiantes estarán inmersos en el proceso de restauración ambiental de manera activa y significativa.Además, en nuestra huerta pedagógica, los niños tendrán la oportunidad de explorar el maravilloso mundo de la agricultura orgánica.",
-      "A través de actividades prácticas de siembra, cuidado y cosecha de alimentos, los estudiantes aprenderán sobre la importancia de una alimentación saludable y sostenible, así como el respeto por el medio ambiente. Nuestras actividades están diseñadas para fomentar el aprendizaje experiencial y el amor por la naturaleza, mientras promovemos valores de conservación y responsabilidad ambiental entre los estudiantes.",
-      "¡Esperamos inspirar a las generaciones futuras a convertirse en guardianes del planeta! ¡Reserva ahora para brindar a tus estudiantes una experiencia educativa única que dejará una huella duradera en sus corazones y mentes!"
+      "En nuestro programa de actividades ambientales, ofrecemos a los estudiantes la oportunidad de aprender sobre rescate y siembra de árboles, así como actividades prácticas en nuestra huerta pedagógica. Guiaremos a los estudiantes a través de actividades prácticas, donde aprenderán sobre la importancia de preservar y proteger el medio ambiente.",
+      "Desde la identificación de especies en peligro hasta la siembra de nuevas plántulas, los estudiantes estarán inmersos en el proceso de restauración ambiental de manera activa y significativa. Además, en nuestra huerta pedagógica, los niños tendrán la oportunidad de explorar el maravilloso mundo de la agricultura orgánica.",
+      "A través de actividades de siembra, cuidado y cosecha de alimentos, los estudiantes aprenderán sobre la importancia de una alimentación saludable y sostenible, así como el respeto por el entorno. Nuestras actividades están diseñadas para fomentar el aprendizaje experiencial y el amor por la naturaleza, mientras promovemos valores de conservación y responsabilidad ambiental entre los estudiantes.",
+      "¡Esperamos inspirar a las generaciones futuras a convertirse en guardianes del planeta! Brindándoles a los estudiantes una experiencia educativa única que dejará una huella duradera en sus corazones y mentes, generando habilidades para la vida."
     ]
   },
   {
@@ -65,23 +66,23 @@
     "imagen": "/servicio6.webp",
     "descripción": [
       "En nuestro exclusivo taller teórico-práctico de 2 meses y medio, te acompañaremos en cada paso del proceso de construcción y cuidado de tu huerta orgánica, ya sea en un entorno urbano, en casa o en terreno.",
-      "Nuestro equipo de expertos en agricultura orgánica compartirá contigo los conocimientos y técnicas necesarias para diseñar, preparar y cultivar tu propia huerta de manera sostenible y respetuosa con el medio ambiente. Desde la selección de cultivos hasta la planificación del espacio y el manejo de plagas y enfermedades, te brindaremos las herramientas y el apoyo necesario para que tu huerta florezca.",
-      "A través de una combinación de sesiones teóricas y prácticas, aprenderás a cultivar una variedad de vegetales, hierbas y frutas de forma orgánica, garantizando alimentos frescos y saludables para ti y tu familia.",
-      "Además, te enseñaremos técnicas de compostaje y reciclaje de residuos orgánicos para enriquecer el suelo y promover la fertilidad de tu huerta de manera natural.Nuestro compromiso es ayudarte a desarrollar una conexión profunda con la naturaleza y a disfrutar de los beneficios de una alimentación más saludable y sostenible.",
-      "   ¡Prepárate para embarcarte en una emocionante aventura hacia la autosuficiencia alimentaria y el bienestar!¡Reserva tu lugar en THuO2 hoy mismo y comienza a cultivar tu propia huerta orgánica con éxito y confianza!"
+      "Compartiremos contigo los conocimientos y técnicas necesarias para diseñar, preparar y cultivar tu propia huerta de manera sostenible y respetuosa con el medio ambiente. Desde la selección de cultivos hasta la planificación del espacio y el manejo de plagas y enfermedades, te brindaremos las herramientas y el apoyo necesario para que tu huerta florezca.",
+      "A través de una combinación de sesiones teóricas y prácticas, aprenderás a cultivar una variedad de vegetales, aromáticas y frutas de forma orgánica, garantizando alimentos frescos y saludables para ti y tu familia.",
+      "Además, te enseñaremos técnicas de compostaje y reciclaje de residuos orgánicos para enriquecer el suelo y promover la fertilidad de tu huerta de manera natural. Nuestro compromiso es ayudarte a desarrollar una conexión profunda con la naturaleza y a disfrutar de los beneficios de una alimentación saludable y sostenible.",
+      "   ¡Prepárate para embarcarte en una emocionante aventura hacia la autosuficiencia alimentaria y el bienestar! ¡Reserva tu lugar en THuO2 hoy mismo y comienza a cultivar tu propia huerta orgánica con éxito y confianza!"
     ]
   },
   {
     "id": 7,
     "title": "Mantenimiento y guarderia para Bonsái",
-    "subtitle": "¡Confía en nosotros para el cuidado experto de tus preciosos Bonsai!",
+    "subtitle": "¡Confía en nosotros para el cuidado experto de tus amados Bonsai!",
     "imagen": "/servicio7.webp",
     "descripción": [
-      "En nuestro servicio de guardería y mantenimiento de Bonsai, nos comprometemos a brindar el cuidado más dedicado y profesional a tus árboles, incluso cuando necesitan recuperarse en situaciones de estres. Nuestro equipo de expertos en Bonsai se encargará de evaluar el estado de tus árboles y proporcionar el tratamiento necesario para restaurar su salud y vitalidad.",
+      "En nuestro servicio de guardería y mantenimiento de Bonsai, nos comprometemos a brindar el cuidado más dedicado y profesional a tus árboles, incluso cuando necesitan recuperarse en situaciones de estrés. Nos encargaremos de evaluar el estado de tus árboles y proporcionar el tratamiento necesario para restaurar su salud y vitalidad.",
       "¿Planeas salir de viaje? ¡No te preocupes! En Tajara ofrecemos la opción de dejar tus Bonsai con nosotros mientras estás fuera. Con nuestro servicio de guardería, tus árboles estarán en un ambiente seguro y cuidado, recibiendo la atención necesaria para mantenerse saludables y felices durante tu ausencia. Si tus Bonsai han sufrido daños por malas condiciones de crecimiento, enfermedades o descuido, estamos aquí para ayudar.",
       "Nuestros servicios de mantenimiento incluyen medidas especializadas de recuperación, como poda de rejuvenecimiento, trasplante cuidadoso, tratamiento de plagas y enfermedades, y nutrición específica para revitalizar tus árboles y devolverles su belleza y vigor naturales.",
-      "Ya sea que necesites cuidado regular para tus árboles saludables o atención especial para tus Bonsai en mal estado, puedes confiar en nosotros en Tajara. Nos comprometemos a cuidar de tus árboles como si fueran nuestros propios Bonsai, para que puedas disfrutar de su belleza y elegancia en todo momento.",
-      "¡Reserva ahora nuestro servicio de guardería y mantenimiento de Bonsai y experimenta la tranquilidad de saber que tus árboles están en las mejores manos en Tajara!"
+      "Ya sea que necesites cuidado regular para tus árboles saludables o atención especial para tus Bonsai en mal estado, puedes confiar en nosotros. Nos comprometemos a cuidar de tus árboles como si fueran nuestros propios Bonsai, para que puedas seguir disfrutando de su belleza en todo momento.",
+      "¡Reserva ahora nuestro servicio de guardería y mantenimiento de Bonsai y experimenta la tranquilidad de saber que tus árboles están en las mejores manos!"
     ]
   }
 ]
