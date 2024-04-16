@@ -6,9 +6,9 @@
     "imagen": "/servicio1.webp",
     "descripción": [
       " Durante 2 a 3 horas, sumérgete en la belleza de nuestro bosque convertido en una cautivadora colección de Bonsai y maravíllate con la diversidad de orquídeas y bromelias en un recorrido de contemplación de baja dificultad.",
-      "Explora nuestras huertas orgánicas y aprende sobre prácticas sostenibles mientras disfrutas de un reconfortante café o aromática. Te proporcionamos recomendaciones prácticas para una experiencia óptima, como llevar un abrigo y zapatos cómodos, así como la oportunidad de capturar recuerdos con fotografías (¡Evita tocar los árboles en macetas!)."
+      "Explora nuestras huertas orgánicas y aprende sobre prácticas sostenibles mientras disfrutas de un reconfortante café o aromática. Te proporcionamos recomendaciones prácticas para una experiencia óptima, como llevar un abrigo y zapatos cómodos, así como la oportunidad de capturar recuerdos con fotografías (¡Evita tocar los árboles en macetas!).",
+      "¡Reserva tu experiencia y prepárate para vivir momentos inolvidables en nuestro mágico parque! "
     ],
-    "precios": "¡Reserva tu experiencia ahora por solo $30.000 por persona y prepárate para vivir momentos inolvidables en nuestro mágico parque! ",
     "link": "https://bit.ly/Reserva_Visita_Guiada_Tajara"
   },
   {
@@ -21,8 +21,7 @@
       "Los talleres grupales se llevan a cabo los martes a las 4:30 PM, brindándote un espacio enriquecedor para nutrir tus habilidades artísticas y expandir tu imaginación.",
       "Pregunta también por nuestras clases personalizadas",
       "Será un verdadero placer darte la bienvenida a nuestro taller y acompañarte en tu viaje hacia la expresión artística. ¡No dudes en unirte a nosotros y liberar tu potencial creativo!"
-    ],
-    "precios": "La inscripción al taller grupal tiene un costo de $50.000 por persona, y ofrecemos la flexibilidad de elegir un paquete de 4 clases por $180.000."
+    ]
   },
   {
     "id": 3,

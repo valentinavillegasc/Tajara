@@ -6,12 +6,12 @@ interface Props {
     imagen:string,
     descripción: string[],
     subtitle:string,
-    precios:string,
+
     link:string
   
 
 }
-const { title,subtitle, descripción,imagen,precios,link } = Astro.props 
+const { title,subtitle, descripción,imagen,link } = Astro.props 
 ---
 
  <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 bg-white max-w-max p-2 m-auto rounded-2xl flex flex-row shadow-2xl lg:w-[1300px] sm:w-[900px]">
@@ -21,8 +21,7 @@ const { title,subtitle, descripción,imagen,precios,link } = Astro.props
                 <h1 class="lg:text-4xl sm:text-6xl text-primaryDark m-5 mb-2 text-left font-medium">{title}</h1>
                 <h2 class="lg:text-lg sm:text-2xl text-secondaryDark ml-5 mb-2 font-medium">{subtitle}</h2>
                 {descripción.map(descrip => {return <p class="lg:text-lg sm:text-2xl text-secondaryDark m-5">{descrip}</p> })}
-                <p class="lg:text-lg sm:text-2xl  text-secondaryDark m-5">{precios}</p>
-                {link && <a class="lg:text-lg sm:text-2xl  text-secondaryDark m-5 underline" href={link}>Reserva tu visita</a>}
+                {link && <a class="lg:text-lg sm:text-2xl  text-secondaryDark m-5 underline" href={link} target="_blank">¡Reserva ahora!</a>}
             </div>    
             <img src={imagen} alt={title} class=" lg:w-[800px] lg:h-[500px] sm:w-[700px] rounded-xl m-5"/>
         </div>

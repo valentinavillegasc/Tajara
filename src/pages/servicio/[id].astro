@@ -4,12 +4,12 @@
     import DetailServicio from '../../components/DetailServicio.astro'
 
     export function getStaticPaths() {
-	return servicios.map(({ id,title,subtitle, imagen,descripción,precios,link }) => {
-		return { params: { id }, props:{ title,subtitle,imagen,descripción,precios,link} }
+	return servicios.map(({ id,title,subtitle, imagen,descripción,link }) => {
+		return { params: { id }, props:{ title,subtitle,imagen,descripción,link} }
 	})
 }
 
-const {title,subtitle,imagen,descripción,precios,link} = Astro.props
+const {title,subtitle,imagen,descripción,link} = Astro.props
 
 
 ---
@@ -20,7 +20,7 @@ const {title,subtitle,imagen,descripción,precios,link} = Astro.props
         
         <div class="flex-1 bg-secondaryLight h-90vh relative z-10  sm:flex- sm:z-0"></div>
 
-        <DetailServicio title={title} imagen={imagen} descripción={descripción} precios={precios} link={link} subtitle={subtitle}/>
+        <DetailServicio title={title} imagen={imagen} descripción={descripción} link={link} subtitle={subtitle}/>
         
         <div class="flex-1 p-10 m-auto relative z-0"></div>
     </div>
