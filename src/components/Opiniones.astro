@@ -9,7 +9,7 @@ import opiniones from '../opiniones.json'
     <div class="slider">
         <div class="opiniones">
             {opiniones.map(opinion=>{
-                return <Memorias name={opinion.name} texto={opinion.texto}/>
+                return <Memorias name={opinion.name} texto={opinion.texto} servicio={opinion.servicio}/>
             })}
         </div>
     </div>
