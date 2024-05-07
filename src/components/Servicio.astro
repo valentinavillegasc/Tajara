@@ -1,17 +1,17 @@
 ---
 interface Props {
     id:number,
-    title: string,
+    portadaTitle: string,
     imagen: string,
 }
-const { title, imagen,id } = Astro.props 
+const { portadaTitle, imagen,id } = Astro.props 
 ---
 
 <a href={`/servicio/${id}`}>
 <div class="serviceContainer">
+    <h2 class="text">{ portadaTitle }</h2>
     <img src={imagen} alt="" class="bg-image">
     <div class="overlay"></div>
-    <h2 class="text">{ title }</h2>
 </div>
 </a>
 
@@ -52,7 +52,7 @@ const { title, imagen,id } = Astro.props
     
     .text {
         position: relative; 
-        z-index: 1; 
+        z-index: 5; 
     }
     
     .bg-image {

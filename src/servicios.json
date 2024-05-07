@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "portadaTitle": "Visita Guiada",
     "title": "Visita Guiada",
     "subtitle": "La magia de Tajara con nuestra visita guiada exclusiva por el fascinante bosque de árboles rescatados.",
     "imagen": "/servicio1.webp",
@@ -13,6 +14,7 @@
   },
   {
     "id": 2,
+    "portadaTitle": "Talleres libres de arte",
     "title": "Talleres libres de arte",
     "subtitle": "¡Bienvenido al emocionante taller de arte y escultura en Tajara, donde puedes liberar tu creatividad!",
     "imagen": "/servicio2.webp",
@@ -26,7 +28,9 @@
   },
   {
     "id": 3,
+    "portadaTitle": "Taller Bonsai",
     "title": "Tallere ENBO (Entregados al Bonsái) para principiantes y avanzados",
+
     "subtitle": "¡Bienvenido(a) al emocionante viaje de ENBO, tu taller teórico-práctico dedicado al apasionante mundo de los Bonsái!",
     "imagen": "/servicio3.webp",
     "descripción": [
@@ -39,6 +43,7 @@
   },
   {
     "id": 4,
+    "portadaTitle": "Asesorias",
     "title": "Asesorias para el rescate y recuperacion de árboles",
     "subtitle": "¡Descubre el poder de salvar y revitalizar la naturaleza con nuestro servicio especializado en el rescate de árboles! ",
     "imagen": "/servicio4.webp",
@@ -51,7 +56,9 @@
   },
   {
     "id": 5,
+    "portadaTitle": "Actividades Escolares",
     "title": "Actividades Escolares",
+
     "subtitle": "¡Bienvenidos, colegios, a una experiencia educativa única y enriquecedora en el corazón de la naturaleza!",
     "imagen": "/servicio5.webp",
     "descripción": [
@@ -63,6 +70,7 @@
   },
   {
     "id": 6,
+    "portadaTitle": "Taller huerta",
     "title": "Taller THuo2 (Tu Huerta Orgánica)",
     "subtitle": "¡Bienvenidos a THuO2 (Tu Huerta Orgánica) - tu guía completa para crear y mantener una huerta orgánica vibrante y saludable!",
     "imagen": "/servicio6.webp",
@@ -77,6 +85,7 @@
   },
   {
     "id": 7,
+    "portadaTitle": "Mantenimiento y guarderia",
     "title": "Mantenimiento y guarderia para Bonsái",
     "subtitle": "¡Confía en nosotros para el cuidado experto de tus amados Bonsai!",
     "imagen": "/servicio7.webp",

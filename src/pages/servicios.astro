@@ -21,7 +21,7 @@ import listaServicios from '../servicios.json'
        
             <div class="bg-secondaryLight flex flex-row flex-wrap justify-center items-center p-16">
                 {listaServicios.map(servicio =>{
-                    return <Servicio id={servicio.id} title={servicio.title} imagen={servicio.imagen} />
+                    return <Servicio id={servicio.id} portadaTitle={servicio.portadaTitle} imagen={servicio.imagen} />
                 })}
             </div>
         
